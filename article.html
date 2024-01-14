@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="STYLESS.css" />
+    <title>Voyage Culinaire - Découverte de la cuisine Italienne</title>
+  </head>
+  <body>
+    <header>
+      <h1>Voyage Culinaire</h1>
+      <p>Date de publication : 29 Décembre 2023</p>
+    </header>
+
+    <article>
+      <p>
+        L'Italie est renommée dans le monde entier pour sa délicieuse cuisine ,
+        riche en saveurs et en traditions . La cuisine italienne est bien plus
+        que de la nourriture , c'est une expérience culturelle.
+      </p>
+      <p>
+        Les antipasti , tels que la bruschetta et les arancini , offrent un
+        avant-goût délicieux avant le plat principal . Les plats de fruits de
+        mer , comme les linguines aux fruits de mer , capturent la fraîcheur de
+        la mer Méditerrannée .
+      </p>
+      <p>
+        En dessert , les tiramisus et les panna cottas régalent les papilles
+        avec leur douceur exquise . Et bien sûr , un repas italien ne serait pas
+        complet sans un bon expresso pour conclure .
+      </p>
+      <p>
+        Les pizzas italiennes sont une véritable expérience culinaire , avec
+        leur pâte fine et croustillante , des ingrédients frais et une saveur
+        authentique qui vos transporte directement en Italie
+      </p>
+      <div class="image">
+        <img src="/image/hyundai hybride1.webp" alt="Cuisine Italienne" />
+        <img src="/image/hyundai hybride2.webp" alt="Cuisine Italienne" />
+        <p>
+          La cuisine italienne , c'est aussi un art de vivre , où le partage de
+          repas en famille et entre amis revêt une importance particulière .
+        </p>
+
+        <img src="/image/hyundai suv1.webp" alt="Pizzas italienne" height="394" width="700"/>
+      </div>
+      <p>
+        Rien ne bat la simplicité parfaite d'une pizza italienne , avec sa sauce
+        tomate fraîche , sa mozzarella de qualité et ses garnitures délicieuses
+        .
+      </p>
+
+      <div class="comment-container">
+        <h2>Laissez votre avis</h2>
+
+        <form action="traitement_commentaire.php" method="post">
+          <label for="nom">Votre nom:</label>
+          <input
+            type="text"
+            id="nom"
+            name="nom"
+            placeholder="Entrez votre nom"
+            required
+          />
+          <label for="commentaire">Votre commentaire:</label>
+          <textarea
+            name="commentaire"
+            id="commentaire"
+            cols="50"
+            rows="4"
+            placeholder="Saisissez votre commentaire ici "
+            required
+          ></textarea>
+          <input type="submit" value="Envoyer" />
+        </form>
+        <!-- Affichage des commentaires -->
+        <div class="comment-section">
+          <div class="commentaire">
+            <strong>Olivier Bourgeois:</strong>C'est un excellent article!
+          </div>
+          <!--Ajoutez d'autres commentaires ici -->
+        </div>
+      </div>
+    </article>
+
+    <footer>
+      <h3><a href="/index.html">Retour à l' accueil</a></h3>
+    </footer>
+  </body>
+</html>
